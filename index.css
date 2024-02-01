@@ -131,8 +131,14 @@ a {
     color: white;
     text-decoration: none;
 }
+.selected {
+    color: orange;
+}
 a:hover {
     color: white;
+}
+.selected:hover {
+    color: orange
 }
 h1 {
     font-size: 3.8rem;
