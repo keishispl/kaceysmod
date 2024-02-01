@@ -131,6 +131,7 @@ a {
     color: white;
     text-decoration: none;
 }
+
 .selected {
     color: orange;
 }
@@ -140,6 +141,7 @@ a:hover {
 .selected:hover {
     color: orange
 }
+
 h1 {
     font-size: 3.8rem;
     letter-spacing: -0.1rem;
