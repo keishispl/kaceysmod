@@ -130,6 +130,7 @@ p {
 a {
     color: white;
     text-decoration: none;
+    text-align: center;
 }
 
 .selected {
@@ -143,9 +144,11 @@ a:hover {
 }
 
 h1 {
+    padding: 20px;
     font-size: 3.8rem;
     letter-spacing: -0.1rem;
     line-height: 1.2;
+    text-align: center;
 }
 h2 {
     font-size: 3.4rem;
