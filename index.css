@@ -241,6 +241,13 @@ p.mid2::before {
 p.mid2::after {
   margin-right: -50%;
 }
+.leftcentered {
+    text-align: center;
+}
+.leftcentered2 {
+    display: inline-block;
+    text-align: left;
+}
 /* Image Slider */
 
 .c-compare {
