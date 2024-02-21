@@ -186,14 +186,15 @@ table, th, td {
   padding: 10px;
 }
 
-.table {
+.table, .table:hover {
     color: rgb(51, 232, 229);
     text-decoration: underline;
 }
-.table:hover {
-    color: rgb(51, 232, 229);
+.table2, .table2:hover {
+    color: rgb(177, 74, 237);
     text-decoration: underline;
 }
+
 p.mid {
   overflow: hidden;
   text-align: center;
@@ -222,6 +223,7 @@ p.mid::after {
 p.mid2 {
   overflow: hidden;
   text-align: center;
+  padding: 250px 0px 250px 0px;
 }
 
 p.mid2::before,
@@ -326,4 +328,19 @@ p.mid2::after {
 .c-compare__range::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
+}
+.leftright {
+ display: grid;
+ align-items: center;
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+ padding: 0px 0px 50px 0px;
+}
+.customimg {
+ width: 150px;
+ height: 150px;
+ padding: 0px 100px 0px 100px;
+}
+.padd {
+ padding: 0px 0px 250px 0px;
 }

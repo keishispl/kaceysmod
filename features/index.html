@@ -57,6 +57,16 @@
             flex-direction: row;
             align-items: center;
         }
+
+
+        .leftrighttext {
+            padding-left: 20px;
+        }
+        .leftright {
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
     </style>
 </head>
 <body>
@@ -81,6 +91,7 @@
     <img draggable="false" style="width: 100px; height: 100px;" src="../images/features.png" loading="lazy" data-scanned="true">
     <h1 class="pixel">Features</h1>
     <p style="color: rgb(222, 222, 222); font-size: 25px;">New & QoL features, added to the game</p>
+    <p>This page is for version 1.1.0 of the mod</p>
     <br><br><br><br><br><br>
     <p>Here is a table showing all the features</p>
 </div>
@@ -95,11 +106,17 @@
         <td><a href="#qolgrass" class="table">Grass Textures</a></td>
     </tr>
 </table>
-<br><br><br><br><br><br><br><br><br><br>
+<br><br>
+<table>
+    <tr>
+        <th><a href="#features">Mod Features</a></th>
+    </tr>
+    <tr>
+        <td><a href="#amethystlongsword" class="table2">Amethyst Longsword</a></td>
+    </tr>
+</table>
 <p style="color: white;" class="mid2"></p>
-<br><br><br><br><br><br><br><br><br><br>
-<h3 class="pixel" id="qol">Quality of Life</h3>
-<br><br><br><br><br><br><br><br><br><br>
+<h3 class="pixel padd" id="qol">Quality of Life</h3>
 <div>
     <h4 id="qolwater">Water Textures</h4>
     <p>Slide to see difference</p>
@@ -138,6 +155,17 @@
     <script src="js/jquery-2.1.1.js"></script>
     <script src="js/jquery.mobile.custom.min.js"></script> <!-- Resource jQuery -->
     <script src="js/main.js"></script> <!-- Resource jQuery -->
+</div>
+<p style="color: white;" class="mid2"></p>
+<h3 class="pixel padd" id="features">Mod Features</h3>
+<div id="amethystlongsword" class="leftright">
+    <div class="image">
+        <img class="customimg" draggable="false" src="img/items/amethyst_longsword.png" alt="Amethyst Longsword">
+    </div>
+    <div class="text">
+        <h3>Amethyst Longsword</h3>
+        <img style="width: auto; height: 100px;" draggable="false" src="img/items/craft/amethyst_longsword.png" alt="Amethyst Longsword Crafting">
+    </div>
 </div>
 </body>
 </html>
