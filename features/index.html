@@ -57,16 +57,6 @@
             flex-direction: row;
             align-items: center;
         }
-
-
-        .leftrighttext {
-            padding-left: 20px;
-        }
-        .leftright {
-            display: flex;
-            align-items: center;
-            justify-content: center
-        }
     </style>
 </head>
 <body>
@@ -95,7 +85,7 @@
     <br><br><br><br><br><br>
     <p>Here is a table showing all the features</p>
 </div>
-<table>
+<table class="menu">
         <tr>
             <th><a href="#qol">Quality of Life Features</a></th>
         </tr>
@@ -105,18 +95,15 @@
     <tr>
         <td><a href="#qolgrass" class="table">Grass Textures</a></td>
     </tr>
-</table>
-<br><br>
-<table>
     <tr>
         <th><a href="#features">Mod Features</a></th>
     </tr>
     <tr>
-        <td><a href="#amethystlongsword" class="table2">Amethyst Longsword</a></td>
+        <td><a href="#features" class="table2">Click to View</a></td>
     </tr>
 </table>
 <p style="color: white;" class="mid2"></p>
-<h3 class="pixel padd" id="qol">Quality of Life</h3>
+<h3 class="pixel pad" id="qol">Quality of Life</h3>
 <div>
     <h4 id="qolwater">Water Textures</h4>
     <p>Slide to see difference</p>
@@ -157,15 +144,27 @@
     <script src="js/main.js"></script> <!-- Resource jQuery -->
 </div>
 <p style="color: white;" class="mid2"></p>
-<h3 class="pixel padd" id="features">Mod Features</h3>
-<div id="amethystlongsword" class="leftright">
-    <div class="image">
-        <img class="customimg" draggable="false" src="img/items/amethyst_longsword.png" alt="Amethyst Longsword">
-    </div>
-    <div class="text">
-        <h3>Amethyst Longsword</h3>
-        <img style="width: auto; height: 100px;" draggable="false" src="img/items/craft/amethyst_longsword.png" alt="Amethyst Longsword Crafting">
-    </div>
-</div>
+<h3 class="pixel pad" id="features">Mod Features</h3>
+<table class="tableicons" cellspacing="0">
+    <tr>
+        <th>Icon</th>
+        <th>Name</th>
+        <th>Crafting</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td><img class="icon" draggable="false" src="img/items/amethyst_longsword.png" alt="Amethyst Longsword"></td>
+        <td>Amethyst Longsword</td>
+        <td><img style="width: 150px; height: auto;" draggable="false" src="img/items/craft/amethyst_longsword.png" alt="Amethyst Longsword Crafting"></td>
+        <td>Damage: 9<br>Speed: 1</td>
+    </tr>
+    <tr>
+        <td><img class="icon" draggable="false" src="img/items/smallsword.png" alt="Smallsword"></td>
+        <td>Smallsword</td>
+        <td><img style="width: 150px; height: auto;" draggable="false" src="img/items/craft/smallsword.png" alt="Smallsword Crafting"></td>
+        <td>Damage: 5<br>Speed: 2.5</td>
+    </tr>
+</table>
+<p class="padding"></p>
 </body>
 </html>
