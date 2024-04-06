@@ -345,3 +345,9 @@ p.mid2::after {
 .pad {
  padding: 0px 0px 50px 0px;
 }
+.button {
+    border: 5px solid;
+    background: transparent;
+    border-radius: 12px;
+    padding: 5px;
+}
